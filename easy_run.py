@@ -36,8 +36,8 @@ def main():
 # Function for Yes/No response prompts during setup
 def yes_no(question: str) -> bool:
     reply = None
-    while reply not in ("y", "n"):
-        reply = input(f"{question} (y/n): ").lower()
+    # while reply not in ("y", "n"):
+    #     reply = input(f"{question} (y/n): ").lower().trim()
     return reply == "y"
 
 
